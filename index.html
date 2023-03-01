@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portifolio Alura One</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  </head>
+  <body>
+    <!--menu de navegação-->
+    <div class="menu_inicio">
+      <div class="logo">
+        <img
+          src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/vector.png"
+        />
+        <h2>Talilo Tarlison</h2>
+      </div>
+      <ul class="menu_lista">
+        <li>
+          <a href="#">Sobre mim </a>
+        </li>
+        <li>
+          <a href="#">Skills</a>
+        </li>
+        <li>
+          <a href="#">Hobbies</a>
+        </li>
+        <li>
+          <a href="#">Formação </a>
+        </li>
+        <li>
+          <a href="#">Projetos</a>
+        </li>
+        <li>
+          <a href="#" class="email">
+            ttarlison@gmail.com
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--banner principal-->
+    <div class="banner">
+      <div class="capa">
+        <h1>
+          Olá, meu nome é
+          <span class="myname">Talilo Tarlison</span> e construo paginas web.
+        </h1>
+        <p>
+          Eu sou formado em Analise e Desevolvimento de Sistemas e atualmente
+          estou participando no projeto Oracle ONE na Alura.
+        </p>
+        <ul class="links">
+          <li>
+            <a href="#"
+              >Instagram
+              <img
+                src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/arrow.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Facebook
+              <img
+                src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/arrow.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >Youtube
+              <img
+                src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/arrow.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >GitHub
+              <img
+                src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/arrow.png"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="perfil">
+        <img
+          src="https://www.lakesidesoftware.com/wp-content/uploads/2022/07/Demo_Desktop_Mockup_leftface.png"
+        />
+      </div>
+    </div>
+    <!--sibre mim-->
+    <div class="sobre">
+      <div class="sobre_mim">
+        <h1>Sobre mim</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <p>
+          It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was
+          popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+        <div>
+          <img
+            align="left"
+            src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/signature.png"
+          />
+        </div>
+      </div>
+    </div>
+    <!--Footer--->
+
+    <div class="rodape">
+      <p>Oracle ONE na Alura.</p>
+      <p>Desenvolvido por Talilo Tarlison em &copy; 2022</p>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap");
+body {
+  background-color: gainsboro;
+  padding: 5px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu_inicio {
+  margin: 0 auto;
+  background-color: gainsboro;
+  display: flex;
+  align-itens: center;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80vw;
+}
+.menu_lista {
+  display: flex;
+  list-style-type: none;
+}
+.menu_lista > li {
+  padding: 30px;
+}
+.menu_lista > li > a {
+  color: black;
+  text-decoration: none;
+}
+.menu_lista > li > a:hover {
+  color: gray;
+}
+.email {
+  font-weight: bold;
+}
+.logo {
+  align-itens: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.logo > img {
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.sobre {
+  padding: 70px 50px;
+  background-color: rgb(189, 219, 229);
+}
+.sobre_mim {
+  margin: 0 100px;
+}
+.nomes {
+  margin: 0 auto;
+  width: 80vw;
+}
+.sobre_mim > h1,
+p {
+  text-align: left;
+}
+.sobre_mim > img {
+  width: 150px;
+  padding: 50px;
+}
+
+.banner {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+}
+.perfil > img {
+  padding: 50px;
+  height: 250px;
+  border-radius: 0.5%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.links > li {
+  padding: 10px 20px;
+  list-style-type: none;
+  color: gray;
+}
+
+.links > li > a {
+  color: black;
+}
+.links > li > a:hover {
+  color: gray;
+}
+
+.myname {
+  color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.capa {
+  padding: 50px 50px 50px 150px;
+}
+
+.rodape {
+  margin: 0 auto;
+}
+.rodape > p {
+  text-align: center;
+  color: rgba(45, 45, 47, 0.677);
+  padding: 0;
+}
