@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,46 +8,75 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portifolio Alura One</title>
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="response.css" media="screen" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="animation.css"
+      media="screen"
+    />
   </head>
   <body>
     <!--menu de navegação-->
-    <div class="menu_inicio">
-      <div class="logo">
-        <img
-          src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/vector.png"
-        />
-        <h2>Talilo Tarlison</h2>
+    <header>
+      <div class="container menu_inicio">
+        <div class="logo">
+          <img
+            src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/vector.png"
+          />
+          <h2>Talilo Tarlison</h2>
+        </div>
+        <section class="menu-section">
+          <div class="container-menu">
+            <input type="checkbox" id="checkbox-menu" />
+            <label class="menu-button-container" for="checkbox-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+
+            <nav>
+              <ul class="menu">
+                <li>
+                  <a href="#">Sobre mim </a>
+                </li>
+                <li>
+                  <a href="#">Skills</a>
+                </li>
+                <li>
+                  <a href="#">Hobbies</a>
+                </li>
+                <li>
+                  <a href="#">Formação </a>
+                </li>
+                <li>
+                  <a href="#">Projetos</a>
+                </li>
+                <li>
+                  <a href="#" class="email">
+                    ttarlison@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
       </div>
-      <ul class="menu_lista">
-        <li>
-          <a href="#">Sobre mim </a>
-        </li>
-        <li>
-          <a href="#">Skills</a>
-        </li>
-        <li>
-          <a href="#">Hobbies</a>
-        </li>
-        <li>
-          <a href="#">Formação </a>
-        </li>
-        <li>
-          <a href="#">Projetos</a>
-        </li>
-        <li>
-          <a href="#" class="email">
-            ttarlison@gmail.com
-          </a>
-        </li>
-      </ul>
-    </div>
+    </header>
 
     <!--banner principal-->
     <div class="banner">
       <div class="capa">
         <h1>
-          Olá, meu nome é
-          <span class="myname">Talilo Tarlison</span> e construo paginas web.
+          <div class="container-animation">
+            <div class="typed-out">
+              Olá, meu nome é <span> Talilo Tarlison</span> e construo paginas
+              web.
+            </div>
+          </div>
+          <div class="container-animation">
+            <div class="typed-out">Web Developer</div>
+          </div>
         </h1>
         <p>
           Eu sou formado em Analise e Desevolvimento de Sistemas e atualmente
