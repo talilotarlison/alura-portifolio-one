@@ -1,6 +1,9 @@
+/* Animaçao do texto principal*/
+
 .container-animation {
   display: inline-block;
 }
+
 .typed-out {
   overflow: hidden;
   border-right: 0.2em solid black;
@@ -10,18 +13,23 @@
   font-size: 1.6rem;
   width: 0;
 }
+
 @keyframes typing {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
 }
+
 @keyframes blinking {
   from {
     border-color: transparent;
   }
+
   to {
     border-color: black;
   }
+}
