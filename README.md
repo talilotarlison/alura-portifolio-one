@@ -9,6 +9,8 @@
 ---
 #### 🔹Marque esse projeto com uma ⭐
 #### 🔹Siga as orientações do que temos neste repositório 📚
+#### 🔹Visite o meu prijeto clicando aqui! [Link do Challenge](https://talilotarlison.github.io/alura-portifolio-one/) 📃
+
 #### 🔹Visite a página do desafio clicando aqui! [Link do Challenge](https://www.alura.com.br/challenges/oracle-one-front-end/) 📃
 
 
