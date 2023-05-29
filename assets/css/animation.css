@@ -33,3 +33,17 @@
     border-color: black;
   }
 }
+
+/*Animação das box*/
+
+@keyframes box-animacao {
+  from {
+    margin-left: 300%;
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
